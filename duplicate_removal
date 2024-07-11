@@ -1,0 +1,9 @@
+CREATE OR REPLACE TABLE `bike-429016.bike_share_chicago.bike_share_unique` AS
+WITH ride_id_unique AS(
+    SELECT *,
+        ROW_NUMBER() OVER(PARTITION BY ride_id ORDER BY started_at ASC) AS row_num
+    FROM`bike-429016.bike_share_chicago.bike_share_analysis`
+)
+SELECT *
+FROM ride_id_unique
+WHERE row_num = 1;
