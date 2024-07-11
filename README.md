@@ -1,3 +1,4 @@
+
 # Change Log for Cyclistic Bike Study
 
 ## Process for Cleaning Data
