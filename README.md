@@ -10,8 +10,12 @@
 ### Step 2: Upload to Google Cloud
 
 * Uploaded 12 months of data to Google Cloud for storage
-* Aggregated all data into a single table in BigQuery 
 * Data Loss Check - Spot Checked 3 datasets and confirmed row #s were the same - 202306, 202312, 202406
-* Data Aggregation - Combined all data
+* Data Aggregation: Aggregated all data into a single table in BigQuery - see **prepare_aggregation**
 
 ### Step 3: Cleaning Process
+I used the following checklist for confirming data was accurate, usable, and clean:
+
+1. Removed Duplicates - see **remove_duplicates**
+2. Remove Extra Spaces & Blanks see **trimming**
+3. Transform Date to usable Format see **datetime_formatting**
