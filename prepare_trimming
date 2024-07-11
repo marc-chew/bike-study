@@ -1,0 +1,21 @@
+CREATE OR REPLACE TABLE `bike-429016.bike_share_chicago.bike_share_trimmed` AS
+WITH bike_share_trimmed AS (
+  SELECT
+    TRIM(ride_id) AS ride_id,
+    TRIM(rideable_type) AS rideable_type,
+    started_at,
+    ended_at,
+    TRIM(start_station_name) AS start_station_name,
+    TRIM(start_station_id) AS start_station_id,
+    TRIM(end_station_name) AS end_station_name,
+    TRIM(end_station_id) AS end_station_id,
+    start_lat,
+    start_lng,
+    end_lat,
+    end_lng,
+    TRIM(member_casual) AS member_casual
+  FROM 
+    `bike-429016.bike_share_chicago.bike_share_unique`
+)
+SELECT *
+FROM bike_share_trimmed;
