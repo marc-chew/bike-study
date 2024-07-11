@@ -1,4 +1,3 @@
-
 # Change Log for Cyclistic Bike Study
 
 ## Process for Cleaning Data
@@ -6,7 +5,7 @@
 ### Step 1: Access
 
 * Downloaded data from Cyclistic Website
-* License for usage found here
+* License for usage found [here](https://divvybikes.com/data-license-agreement)
 
 ### Step 2: Upload to Google Cloud
 
