@@ -1,0 +1,35 @@
+CREATE OR REPLACE TABLE `bike-429016.bike_share_chicago.bike_share_prepared` AS
+WITH bike_share_prepared AS (
+  SELECT
+  *,
+  CAST(FLOOR(ride_length_in_seconds / 3600) AS STRING) AS hours,
+  LPAD(CAST(FLOOR(MOD(ride_length_in_seconds, 3600) / 60) AS STRING), 2, '0') AS minutes,
+  LPAD(CAST(MOD(ride_length_in_seconds, 60) AS STRING), 2, '0') AS seconds,
+  CONCAT(
+    CAST(FLOOR(ride_length_in_seconds / 3600) AS STRING), ':',
+    LPAD(CAST(FLOOR(MOD(ride_length_in_seconds, 3600) / 60) AS STRING), 2, '0'), ':',
+    LPAD(CAST(MOD(ride_length_in_seconds, 60) AS STRING), 2, '0')
+  ) AS ride_length_formatted
+FROM (
+  SELECT 
+    *,
+    TIMESTAMP_DIFF(ended_at, started_at, SECOND) AS ride_length_in_seconds,
+  FROM
+    `bike-429016.bike_share_chicago.bike_share_trimmed`
+  WHERE
+    ended_at > started_at  -- Filter out rows where ended_at is earlier than started_at
+)
+)
+SELECT 
+  ride_id,
+  rideable_type,
+  started_at,
+  ended_at,
+  start_station_name,
+  end_station_name,
+  member_casual,
+  ride_length_in_seconds,
+  ride_length_formatted
+FROM bike_share_prepared;
+
+
