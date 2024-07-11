@@ -18,4 +18,5 @@ I used the following checklist for confirming data was accurate, usable, and cle
 
 1. Removed Duplicates - see **remove_duplicates**
 2. Remove Extra Spaces & Blanks see **trimming**
-3. Transform Date to usable Format see **datetime_formatting**
+3. Identify unformatted data
+    1. Transform Date to usable Format see **datetime_formatting**
