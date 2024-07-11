@@ -9,8 +9,8 @@
 
 ### Step 2: Upload to Google Cloud
 
-* Uploaded 12 csv files to Google Cloud for storage
-* Created tables in BigQuery
+* Uploaded 12 months of data to Google Cloud for storage
+* Aggregated all data into a single table in BigQuery 
 * Data Loss Check - Spot Checked 3 datasets and confirmed row #s were the same - 202306, 202312, 202406
 * Data Aggregation - Combined all data
 
