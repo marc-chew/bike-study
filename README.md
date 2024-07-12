@@ -20,12 +20,12 @@ I used the following checklist for confirming data was accurate, usable, and cle
 2. Remove Extra Spaces & Blanks see **trimming**
 3. Identify unformatted data
     1. Transform Date to usable Format see **datetime_formatting**
+4. General Analysis
+    1. Time Frame: 2023-06 to 2024-06
+    2. Total Records: 6,451,982
+    3. **Average Ride Length**
+    4. **Max Ride Length**
+    5. **Minimum Ride Length**
   
-### Step 4: General Analysis
-Time Frame: 2023-06 to 2024-06
-Total Records: 6,451,982
+STEP 4: Analyze
 
-- Calculate general stats:
-    -  **Average Ride Length** 
-    - **Max Ride Length**
-    - **Minimum Ride Length**
