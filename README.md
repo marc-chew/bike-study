@@ -27,5 +27,11 @@ I used the following checklist for confirming data was accurate, usable, and cle
     4. **Max Ride Length**
     5. **Minimum Ride Length**
   
-STEP 4: Analyze
+### STEP 4: Analyze
 
+We will test the following hypotheses:
+
+- Do Members/Casuals prefer a certain bike type?
+- Do Members/Casuals ride on a certain day? month?
+- Do Members/Casuals tend to rent at a specific location or end at a specific location?
+- Do Members/Casuals ride for a longer or shorter duration? 
