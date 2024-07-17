@@ -24,15 +24,7 @@ I used the following checklist for confirming data was accurate, usable, and cle
 5. Dataset Overview
     1. Time Frame: 2023-06 to 2024-06
     2. Total Records: 6,451,762
-6. **Analysis: Ride Length by MINUTES split by Rider Type**
-
-|          | Avg  | Max     | Min |
-|----------|------|---------|-----|
-| Casual   | 28.09| 98489   | 0.02|
-| Member   | 13.02| 1559.8  | 0.02|
-| Combined | 18.5 | 98489   | 0.02|
-
-7. **Average Ride Length by Day**
+6. **Average Ride Length by Day**
 
 | Day of Week | Avg Ride Length (minutes) |
 |:-----------:|:-------------------------:|
@@ -44,7 +36,7 @@ I used the following checklist for confirming data was accurate, usable, and cle
 | Tuesday     | 16.14                     |
 | Thursday    | 16.15                     |
 
-8. **Average Ride Length by Month**
+7. **Average Ride Length by Month**
 
 | Day of Week | Avg Ride Length (minutes) |
 |:-----------:|:-------------------------:|
@@ -63,6 +55,15 @@ Data has been saved in table: bike_share_analyze
 We will test the following hypotheses:
 
 - Do Members/Casuals prefer a certain bike type?
+
+| **User** | **Bike Type** | **Rides** |
+|----------|---------------|-----------|
+| member   | classic_bike  |   2086240 |
+| member   | electric_bike |   2015884 |
+| casual   | electric_bike |   1219429 |
+| casual   | classic_bike  |   1080854 |
+| casual   | docked_bike   |     49355 |
+
 - Do Members/Casuals ride on a certain day? month?
 
 | **Day**   | **User** | **Rides** | **Percent of Total** |
@@ -111,4 +112,10 @@ We will test the following hypotheses:
 | January   | casual   |     24446 |                  0.4 |
 
 - Do Members/Casuals tend to rent at a specific location or end at a specific location?
-- Do Members/Casuals ride for a longer or shorter duration? 
+- Do Members/Casuals ride for a longer or shorter duration?
+
+|   User   | Avg  | Max     | Min |
+|----------|------|---------|-----|
+| Casual   | 28.09| 98489   | 0.02|
+| Member   | 13.02| 1559.8  | 0.02|
+| Combined | 18.5 | 98489   | 0.02|
