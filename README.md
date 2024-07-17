@@ -21,15 +21,18 @@ I used the following checklist for confirming data was accurate, usable, and cle
 3. Remove Extremely low outliers - see **see rides < 1 sec** (220 records)
 4. Identify unformatted data
     1. Transform Date to usable Format see **datetime_formatting**
-5. General Analysis
+5. Dataset Overview
     1. Time Frame: 2023-06 to 2024-06
     2. Total Records: 6,451,762
-    3. **Average Ride Length:** 1110 seconds
-    4. **Max Ride Length:** 5909344 seconds  
-    5. **Minimum Ride Length:** 1 second
-    6. **Average Ride Length Members:** 781 seconds
-    7. **Average Ride Length Casual:** 1685 seconds
-6. Average Ride Length by Day
+6. General Analysis
+   Ride Length split by Rider Type:
+|          | Avg  | Max     | Min |
+|----------|------|---------|-----|
+| Members  | 781  | 93588   | 1   |
+| Casual   | 1685 | 5909344 | 1   |
+| Combined | 1110 | 5909344 | 1   |
+
+7. **Average Ride Length by Day**
 
  | Day of Week | Avg Ride Length (seconds) | Avg Ride Length (minutes) |
 |-------------|---------------------------|---------------------------|
@@ -41,7 +44,8 @@ I used the following checklist for confirming data was accurate, usable, and cle
 | Tuesday     |                       969 | 16.14                     |
 | Thursday    |                       969 | 16.15                     |
 
-  
+6. **Average Ride Length by Day**
+
 ### STEP 4: Analyze
 
 Data has been saved in table: bike_share_analyze
