@@ -24,9 +24,12 @@ I used the following checklist for confirming data was accurate, usable, and cle
 5. General Analysis
     1. Time Frame: 2023-06 to 2024-06
     2. Total Records: 6,451,762
-    3. **Average Ride Length**
-    4. **Max Ride Length**
-    5. **Minimum Ride Length**
+    3. **Average Ride Length:** 1110 seconds
+    4. **Max Ride Length:** 5909344 seconds  
+    5. **Minimum Ride Length:** 1 second
+    6. **Average Ride Length Members:** 781 seconds
+    7. **Average Ride Length Casual:** 1685 seconds
+
   
 ### STEP 4: Analyze
 
