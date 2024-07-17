@@ -29,6 +29,17 @@ I used the following checklist for confirming data was accurate, usable, and cle
     5. **Minimum Ride Length:** 1 second
     6. **Average Ride Length Members:** 781 seconds
     7. **Average Ride Length Casual:** 1685 seconds
+6. Average Ride Length by Day
+
+ | Day of Week | Avg Ride Length (seconds) | Avg Ride Length (minutes) |
+|-------------|---------------------------|---------------------------|
+| Sunday      |                      1371 | 22.85                     |
+| Saturday    |                      1345 | 22.42                     |
+| Friday      |                      1094 | 18.23                     |
+| Monday      |                      1040 | 17.33                     |
+| Wednesday   |                       970 | 16.16                     |
+| Tuesday     |                       969 | 16.14                     |
+| Thursday    |                       969 | 16.15                     |
 
   
 ### STEP 4: Analyze
