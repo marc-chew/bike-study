@@ -26,13 +26,13 @@ I used the following checklist for confirming data was accurate, usable, and cle
     2. Total Records: 6,451,762
 6. General Analysis
 
-   Ride Length by seconds split by Rider Type:
+   Ride Length by minutes split by Rider Type:
 
 |          | Avg  | Max     | Min |
 |----------|------|---------|-----|
-| Members  | 781  | 93588   | 1   |
-| Casual   | 1685 | 5909344 | 1   |
-| Combined | 1110 | 5909344 | 1   |
+| Casual   | 28.09| 98489   | 0.02|
+| Member   | 13.02| 1559.8  | 0.02|
+| Combined | 18.5 | 98489   | 0.02|
 
 7. **Average Ride Length by Day**
 
