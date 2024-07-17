@@ -18,16 +18,19 @@ I used the following checklist for confirming data was accurate, usable, and cle
 
 1. Removed Duplicates - see **remove_duplicates**
 2. Remove Extra Spaces & Blanks see **trimming**
-3. Identify unformatted data
+3. Remove Extremely low outliers - see **see rides < 1 sec** (220 records)
+4. Identify unformatted data
     1. Transform Date to usable Format see **datetime_formatting**
-4. General Analysis
+5. General Analysis
     1. Time Frame: 2023-06 to 2024-06
-    2. Total Records: 6,451,982
+    2. Total Records: 6,451,762
     3. **Average Ride Length**
     4. **Max Ride Length**
     5. **Minimum Ride Length**
   
 ### STEP 4: Analyze
+
+Data has been saved in table: bike_share_analyze
 
 We will test the following hypotheses:
 
