@@ -25,7 +25,8 @@ I used the following checklist for confirming data was accurate, usable, and cle
     1. Time Frame: 2023-06 to 2024-06
     2. Total Records: 6,451,762
 6. General Analysis
-   Ride Length split by Rider Type:
+
+   Ride Length by seconds split by Rider Type:
 
 |          | Avg  | Max     | Min |
 |----------|------|---------|-----|
