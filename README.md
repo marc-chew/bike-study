@@ -26,6 +26,7 @@ I used the following checklist for confirming data was accurate, usable, and cle
     2. Total Records: 6,451,762
 6. General Analysis
    Ride Length split by Rider Type:
+
 |          | Avg  | Max     | Min |
 |----------|------|---------|-----|
 | Members  | 781  | 93588   | 1   |
