@@ -112,6 +112,20 @@ We will test the following hypotheses:
 | January   | casual   |     24446 |                  0.4 |
 
 - Do Members/Casuals tend to rent at a specific location or end at a specific location?
+
+| **User** | **Start Station Name**             | **Rides** |
+|----------|------------------------------------|-----------|
+| casual   | Streeter Dr & Grand Ave            | 54406     |
+| casual   | DuSable Lake Shore Dr & Monroe St  | 36703     |
+| member   | Clinton St & Washington Blvd       | 30331     |
+| member   | Kingsbury St & Kinzie St           | 29730     |
+| member   | Clark St & Elm St                  | 27544     |
+| casual   | Michigan Ave & Oak St              | 27285     |
+| casual   | DuSable Lake Shore Dr & North Blvd | 25207     |
+| member   | Clinton St & Madison St            | 24688     |
+| member   | Wells St & Concord Ln              | 23412     |
+| casual   | Millennium Park                    | 23326     |
+
 - Do Members/Casuals ride for a longer or shorter duration?
 
 |   User   | Avg  | Max     | Min |
