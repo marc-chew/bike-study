@@ -15,6 +15,7 @@ We will test the following hypotheses:
 
 #### Do Members/Casuals prefer a certain bike type?
 
+Findings: 
 - Members rode Classic Bikes 50% of the time and Electric Bikes 50% of the time last year
 - Casual Users used electric bikes slightly more (52%%) than classic bikes (46%) with a small usage of docked bikes
 - The docked bikes could be attributed to accessibility users 
@@ -28,6 +29,15 @@ We will test the following hypotheses:
 | casual   | docked_bike   |     49355 |
 
 #### Do Members/Casuals ride on a certain day? month?
+
+Findings: 
+- Members bike usage on average is 18% higher on **weekdays** than on **weekends**
+- Casual users on average is 35% higher on **weekends** than on **weekdays**
+- Members used bikes most frequently mid-week on Thursday, Wednesday, and Tuesday
+- Casual users used bikes most frequently toward the end of the week on Friday, Saturday, and Sunday
+
+- Summer has the highest volume of rides for both Members and Casual Users
+- Casual Users 
 
 | **Day**   | **User** | **Rides** | **Percent of Total** |
 |-----------|----------|-----------|----------------------|
