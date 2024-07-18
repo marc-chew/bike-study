@@ -1,4 +1,4 @@
-### STEP 4: Analyze
+### Cyclistic Bike Case Study: Analysis
 
 Data has been saved in table: bike_share_analyze
 
