@@ -35,9 +35,8 @@ Findings:
 - Casual users on average is 35% higher on **weekends** than on **weekdays**
 - Members used bikes most frequently mid-week on Thursday, Wednesday, and Tuesday
 - Casual users used bikes most frequently toward the end of the week on Friday, Saturday, and Sunday
-
 - Summer has the highest volume of rides for both Members and Casual Users
-- Casual Users 
+- Winter has the lowest volume of rides for both Members and Casual Users
 
 | **Day**   | **User** | **Rides** | **Percent of Total** |
 |-----------|----------|-----------|----------------------|
