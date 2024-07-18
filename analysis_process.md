@@ -15,6 +15,10 @@ We will test the following hypotheses:
 
 #### Do Members/Casuals prefer a certain bike type?
 
+- Members rode Classic Bikes 50% of the time and Electric Bikes 50% of the time last year
+- Casual Users used electric bikes slightly more (52%%) than classic bikes (46%) with a small usage of docked bikes
+- The docked bikes could be attributed to accessibility users 
+
 | **User** | **Bike Type** | **Rides** |
 |----------|---------------|-----------|
 | member   | classic_bike  |   2086240 |
