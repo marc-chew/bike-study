@@ -1,10 +1,19 @@
 ### Cyclistic Bike Case Study: Analysis
 
-Data has been saved in table: bike_share_analyze
+*NOTE: Data has been saved in table bike_share_analyze*
+
+To answer the business objective of:
+*How do annual members and casual riders use Cyclistic bikes differently?*
 
 We will test the following hypotheses:
 
 - Do Members/Casuals prefer a certain bike type?
+- Do Members/Casuals ride on a certain day? month?
+- Do Members/Casuals tend to rent at a specific location or end at a specific location?
+- Do Members/Casuals ride for a longer or shorter duration?
+
+
+#### Do Members/Casuals prefer a certain bike type?
 
 | **User** | **Bike Type** | **Rides** |
 |----------|---------------|-----------|
@@ -14,7 +23,7 @@ We will test the following hypotheses:
 | casual   | classic_bike  |   1080854 |
 | casual   | docked_bike   |     49355 |
 
-- Do Members/Casuals ride on a certain day? month?
+#### Do Members/Casuals ride on a certain day? month?
 
 | **Day**   | **User** | **Rides** | **Percent of Total** |
 |-----------|----------|-----------|----------------------|
@@ -61,7 +70,7 @@ We will test the following hypotheses:
 | February  | casual   |     47157 |                  0.7 |
 | January   | casual   |     24446 |                  0.4 |
 
-- Do Members/Casuals tend to rent at a specific location or end at a specific location?
+#### Do Members/Casuals tend to rent at a specific location or end at a specific location?
 
 | **User** | **Start Station Name**             | **Rides** |
 |----------|------------------------------------|-----------|
@@ -76,7 +85,7 @@ We will test the following hypotheses:
 | member   | Wells St & Concord Ln              | 23412     |
 | casual   | Millennium Park                    | 23326     |
 
-- Do Members/Casuals ride for a longer or shorter duration?
+#### Do Members/Casuals ride for a longer or shorter duration?
 
 |   User   | Avg  | Max     | Min |
 |----------|------|---------|-----|
