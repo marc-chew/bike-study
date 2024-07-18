@@ -85,6 +85,11 @@ Findings:
 
 #### Do Members/Casuals tend to rent at a specific location or end at a specific location?
 
+Findings:
+
+- Steeter Dr & Grand Ave was the most frequented start station for Casual Users
+- Clinton Streets two stations were both in the top five for Members
+
 | **User** | **Start Station Name**             | **Rides** |
 |----------|------------------------------------|-----------|
 | casual   | Streeter Dr & Grand Ave            | 54406     |
@@ -99,6 +104,10 @@ Findings:
 | casual   | Millennium Park                    | 23326     |
 
 #### Do Members/Casuals ride for a longer or shorter duration?
+
+Findings:
+
+- Casual Users have a longer average riding duration than Members
 
 |   User   | Avg  | Max     | Min |
 |----------|------|---------|-----|
